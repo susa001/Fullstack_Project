@@ -1,0 +1,21 @@
+.tit
+{
+    color:#00ABE4;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.tit:hover
+{
+    animation-name:change;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+}
+.current
+{
+    position: relative;
+    left: 590PX;
+}
+@keyframes change 
+{
+    to{color: pink;}
+}
