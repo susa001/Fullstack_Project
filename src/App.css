@@ -1,8 +1,8 @@
 .tit
 {
-    color:#00ABE4;
+    color: #f7a3b4;;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:' Playfair Display';
 }
 .tit:hover
 {
@@ -10,12 +10,33 @@
     animation-iteration-count: infinite;
     animation-duration:2s;
 }
-.current
-{
-    position: relative;
-    left: 590PX;
-}
 @keyframes change 
 {
     to{color: pink;}
+}
+.squ
+{
+    display:grid;
+    justify-content: center;
+    height:150px;
+    width:600px;
+    border:solid;
+    border-color: whitesmoke;
+    position:absolute;
+    left: 375px;
+    border-radius:25px;
+}
+.amt
+{
+    display:flex;
+    gap: 150px;
+}
+.amt h4{
+    font-size: 35px;
+}
+.sal
+{
+    position:absolute;
+    top:270px;
+    left:380px
 }
